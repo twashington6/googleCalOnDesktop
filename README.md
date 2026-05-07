@@ -38,8 +38,8 @@ A lightweight, always-on-top desktop widget that displays Google Calendar in a t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/GoogleCalendarWidget.git
-   cd GoogleCalendarWidget
+   git clone https://github.com/twashington6/googleCalOnDesktop.git
+   cd googleCalOnDesktop
    ```
 
 2. Install dependencies:
