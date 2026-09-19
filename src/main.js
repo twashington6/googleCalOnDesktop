@@ -45,6 +45,7 @@ function createWindow() {
     //console.log("window created!");
 }
 
+// resetting the shortcuts used in app
 function registerShortcuts() {
     globalShortcut.unregisterAll(); // clear existing shortcuts
 
@@ -103,5 +104,6 @@ app.whenReady().then(() => {
 });
 
 app.on('window-all-closed', () => {
+    // exiting app
     if (process.platform !== 'darwin') app.quit();
 });
